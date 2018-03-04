@@ -1,6 +1,4 @@
 ---
-title: Resume Home page
+title: Home 
 layout: default
 ---
-
-Hello 

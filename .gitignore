@@ -10,6 +10,5 @@ vendor
 .idea
 
 # Ignore self generated test files
-*-test.md
 index.html
-master.html
+*-test

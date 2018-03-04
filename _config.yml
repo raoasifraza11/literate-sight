@@ -8,6 +8,8 @@ url:
 baseurl: ""
 # Site General Setting
 title: Your awesome title
+description: Here is your site description
+keywords: here is your site keywords
 author: GitHub User
 favicon: favicon.png
 
@@ -31,3 +33,5 @@ menu:
   - title: "External Profiles"
     url:  "#profiles"
 # End
+
+markdown: kramdown
