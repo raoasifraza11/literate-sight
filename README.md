@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/literate-sight-theme.svg)](https://badge.fury.io/rb/literate-sight-theme)
+
 # literate-sight-theme
 
 Welcome the `literate-sight-theme` the purpose of this theme is populate your resume in a template.
