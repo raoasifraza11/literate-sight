@@ -4,8 +4,13 @@
 <body>
     {% include header.html %}
 
-
-    {{ content }}
+    {% if site.pages.size > 0 %}
+        {% for page in site.pages %}
+        <section id="{{ page.title }}">
+            {{ page.content }}
+        </section>
+        {% endfor %}
+    {% endif %}
 
 
     {% include footer.html %}

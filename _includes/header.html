@@ -2,19 +2,17 @@
     <nav>
         <div class="tracker"></div>
         <menu>
-            <li><a href="#summary">SUM<span>mary</span></a></li>
-            <li><a href="#experience">EXP<span>erience and History</span></a></li>
-            <li><a href="#training">EDU<span>cation</span></a></li>
-            <li><a href="#knowledge">KNO<span>wledge and Skills</span></a></li>
-            <li><a href="#profiles">EXT<span>ernal Profiles</span></a></li>
+            {% for item in site.menu %}
+            <li><a href="{{ item.url  }}">{{ item.title | slice: 0, 3  | upcase }}<span>{{ item.title | slice: 3, item.title.size | downcase }}</span></a></li>
+            {% endfor %}
         </menu>
     </nav>
     {% if site.author-image %}<img src="/assets/images/{{ site.author-image }}" alt="{{ site.author }}"> {% endif %}
     {% if site.author %}<h1 id="header-container">{{ site.author }}</h1>{% endif %}
 
     <h2>
-        <a href="http://asifraza.me">asifraza.me</a> &mdash;
-        {% if site.email %}<a href="mailto:raoasifraza1@hotmail.com">{{ site.email }}</a> &mdash;{% endif %}
-        <a href="tel:00923002528517">+92 300-252-8517</a>
+        {% if site.url %}<a href="{{ site.url }}">{{ site.url }}</a> {% endif %}
+        {% if site.email %}&mdash; <a href="mailto:raoasifraza1@hotmail.com">{{ site.email }}</a> {% endif %}
+        {% if site.phone %}&mdash; <a href="tel:{{ site.phone }}">{{ site.phone }}</a> {% endif %}
     </h2>
 </header>
