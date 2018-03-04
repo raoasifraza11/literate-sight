@@ -3,3 +3,6 @@
 .sass-cache
 _site
 Gemfile.lock
+index.html
+vendor
+.idea
