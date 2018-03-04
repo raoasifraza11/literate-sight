@@ -3,10 +3,10 @@
     <meta name="description" content="A resume of Asif Raza web developer and mobile application developer.">
     <meta name="keyword" content="asifraza, raoasifraza, muhammad asif raza, asif, raoasifraza11, raoasifraza1">
     <meta name="robots" content="noindex,nofollow">
-    <title>{{ page.title }}</title>
+    {%if page.title %}<title>{{ page.title }}</title>{% endif %}
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
+    {% if site.favicon %}<link rel="icon" type="image/png" href="/assets/images/{{ site.favicon }}">{% endif %}
 
     <!-- Author -->
     <link type="text/plain" rel="author" href="http://asifraza.me/humans.txt" />

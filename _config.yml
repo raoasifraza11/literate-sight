@@ -1,0 +1,9 @@
+# Site General Setting
+title: Your awesome title
+author: GitHub User
+favicon: favicon.png
+
+# TODO: later on make author-image more flexible
+# Image MUST be in 'assets/images/*'
+author-image: profile-min.png
+email: your-email@domain.com

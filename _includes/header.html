@@ -9,11 +9,12 @@
             <li><a href="#profiles">EXT<span>ernal Profiles</span></a></li>
         </menu>
     </nav>
-    <img src="{{ "/assets/images/profile-min.png" }}" alt="Asif Raza">
-    <h1 id="header-container">Asif Raza</h1>
+    {% if site.author-image %}<img src="/assets/images/{{ site.author-image }}" alt="{{ site.author }}"> {% endif %}
+    {% if site.author %}<h1 id="header-container">{{ site.author }}</h1>{% endif %}
+
     <h2>
         <a href="http://asifraza.me">asifraza.me</a> &mdash;
-        <a href="mailto:raoasifraza1@hotmail.com">raoasifraza1@hotmail.com</a> &mdash;
+        {% if site.email %}<a href="mailto:raoasifraza1@hotmail.com">{{ site.email }}</a> &mdash;{% endif %}
         <a href="tel:00923002528517">+92 300-252-8517</a>
     </h2>
 </header>
