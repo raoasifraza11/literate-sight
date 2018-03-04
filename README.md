@@ -31,7 +31,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+How to use `literate-sight-theme`
 
 ## Contributing
 

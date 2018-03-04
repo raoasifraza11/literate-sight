@@ -3,7 +3,7 @@
         <div class="tracker"></div>
         <menu>
             {% for item in site.menu %}
-            <li><a href="{{ item.url  }}">{{ item.title | slice: 0, 3  | upcase }}<span>{{ item.title | slice: 3, item.title.size | downcase }}</span></a></li>
+            <li><a href="{{ item.url  }}">{{ item.title | slice: 0, 4  | upcase }}<span>{{ item.title | slice: 4, item.title.size | downcase }}</span></a></li>
             {% endfor %}
         </menu>
     </nav>

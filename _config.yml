@@ -22,16 +22,18 @@ phone: 123-456-789
 
 # Site menu settings
 menu:
-  - title: "SUMMARY"
-    url: "#summary"
+  - title: "Home"
+    url: "#home"
   - title: "Experience and History"
     url: "#experience"
-  - title: "Education"
-    url: "#education"
-  - title: "Knowledge and Skills"
-    url: "#knowledge"
-  - title: "External Profiles"
-    url:  "#profiles"
+# Un-comment this section if you want to use them
+
+#  - title: "Education"
+#    url: "#education"
+#  - title: "Knowledge and Skills"
+#    url: "#knowledge"
+#  - title: "External Profiles"
+#    url:  "#profiles"
 # End
 
 markdown: kramdown

@@ -11,4 +11,4 @@ vendor
 
 # Ignore self generated test files
 index.html
-*-test
+*-test.*
