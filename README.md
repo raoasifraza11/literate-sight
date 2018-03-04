@@ -31,7 +31,21 @@ Or install it yourself as:
 
 ## Usage
 
-How to use `literate-sight-theme`
+Steps you follow to configure the theme:
+
+-   Add the basic site configuration in `_config.yml`.
+-   Add the menu in `_config.yml` OR un-comment defaults.
+-   Add the pages in `root` in markdown style, front matter should like this:
+```
+
+---
+title: should be the name as menu
+layout: section
+---
+
+# Write your content in makrdown style
+
+```
 
 ## Contributing
 

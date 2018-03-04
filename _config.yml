@@ -24,8 +24,8 @@ phone: 123-456-789
 menu:
   - title: "Home"
     url: "#home"
-  - title: "Experience and History"
-    url: "#experience"
+#  - title: "Experience and History"
+#    url: "#experience"
 # Un-comment this section if you want to use them
 
 #  - title: "Education"
