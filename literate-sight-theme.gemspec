@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "literate-sight-theme"
-  spec.version       = "0.1.2.pre"
+  spec.version       = "0.1.3.pre"
   spec.authors       = ["raoasifraza11"]
   spec.email         = ["raoasifraza1@hotmail.com"]
 

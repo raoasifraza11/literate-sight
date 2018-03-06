@@ -36,4 +36,9 @@ menu:
 #    url:  "#profiles"
 # End
 
+# Build settings
 markdown: kramdown
+theme: literate-sight-theme
+exclude:
+  - Gemfile
+  - Gemfile.lock
