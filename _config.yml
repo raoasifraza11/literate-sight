@@ -23,21 +23,21 @@ phone: 123-456-789
 # End
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
-# facebook_username: jekyll
-# linkedin_username: jekyll
-# instagram_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+#twitter_username:
+#github_username:
+# facebook_username:
+# linkedin_username:
+# instagram_username:
+# youtube_username:
+# googleplus_username:
 
 
 
 
 
 # Build settings
-#markdown: kramdown
-#theme: literate-sight-theme
-#exclude:
-#  - Gemfile
-#  - Gemfile.lock
+markdown: kramdown
+theme: literate-sight-theme
+exclude:
+  - Gemfile
+  - Gemfile.lock
