@@ -1,17 +1,20 @@
-# --- General options --- #
+# Site configuration
+
+# General Settings
+title: Your awesome title
+author: GitHub User
+description: >  # this means to ignore newlines until "keywords:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+keywords: here is your site keywords
+favicon: favicon.png
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url:
 baseurl: ""
-# Site General Setting
-title: Your awesome title
-description: Here is your site description
-keywords: here is your site keywords
-author: GitHub User
-favicon: favicon.png
 
 # Image MUST be in 'assets/images/*'
 author-image: profile.png
@@ -19,26 +22,22 @@ email: your-email@domain.com
 phone: 123-456-789
 # End
 
+# social links
+twitter_username: jekyllrb
+github_username:  jekyll
+# facebook_username: jekyll
+# linkedin_username: jekyll
+# instagram_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
 
-# Site menu settings
-menu:
-  - title: "Home"
-    url: "#home"
-#  - title: "Experience and History"
-#    url: "#experience"
-# Un-comment this section if you want to use them
 
-#  - title: "Education"
-#    url: "#education"
-#  - title: "Knowledge and Skills"
-#    url: "#knowledge"
-#  - title: "External Profiles"
-#    url:  "#profiles"
-# End
+
+
 
 # Build settings
-markdown: kramdown
-theme: literate-sight-theme
-exclude:
-  - Gemfile
-  - Gemfile.lock
+#markdown: kramdown
+#theme: literate-sight-theme
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock

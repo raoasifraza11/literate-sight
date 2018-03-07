@@ -4,17 +4,16 @@
 <body>
     {% include header.html %}
 
-    {% if site.pages.size > 0 %}
-    {% for page in site.pages %}
+    <!-- Section -->
+    {% assign pages = site.pages | sort: 'order' %}
+    {% if pages.size > 0%}
+    {% for page in pages %}
     <section id="{{ page.title }}">
         {{ page.content }}
     </section>
-    {% endfor %}
-    {% endif %}
+    {% endfor %}{% endif %}
+    <!--/. Section -->
 
-    <section id="home">
-        {{ content }}
-    </section>
 
     {% include footer.html %}
 </body>
