@@ -37,7 +37,7 @@ phone: 123-456-789
 
 # Build settings
 markdown: kramdown
-theme: literate-sight-theme
+theme: jekyll-theme-cayman
 exclude:
   - Gemfile
   - Gemfile.lock
